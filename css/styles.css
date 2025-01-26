@@ -353,7 +353,9 @@ background: #f03e3d;
   padding-bottom: 50px;
 }
 
-.container {}
+.process .container {
+  width: 916px;
+}
 
 .process-title {
   text-align: center;
@@ -383,13 +385,19 @@ background: #f03e3d;
   display: flex;
   align-items: center;
   gap: 20px;
+  width: calc((100% - 100px) / 2);
 }
 .process-item-revers{
   flex-direction: row-reverse;
 }
 .process-text-wrap{
   box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
-  padding: 13px 20px;
+  /* padding: 13px 20px; */
+  width: 281px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50px;
 }
 .process-desc {
